@@ -1,0 +1,17 @@
+{
+  "name": "app_testing_server",
+  "version": "0.0.1",
+  "description": "this is to test app using mock data",
+  "main": "index,js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "run": "rm -rf node_modules && npm install && nodemon index.js",
+    "start1": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Monga",
+  "license": "ISC"
+}
